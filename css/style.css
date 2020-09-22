@@ -74,16 +74,16 @@ footer{
 
 .bio{
     text-align: left;
-
-
 }
 
 .profile:hover{
     border-color: cadetblue;
 }
 
-.container{
+main .container{
     text-align: center;
+    margin: 0 auto;
+    padding:1.25rem;
 }
 
 .img-wrap{
@@ -91,6 +91,7 @@ footer{
     margin: 0 1rem 2rem;
     border-bottom: 0.15rem solid #333;
     padding-bottom: 1rem;
+    min-height: 425px;
 }
 
 .img-wrap h3{
@@ -116,14 +117,23 @@ footer{
     text-align: left;
 }
 
+#skills{
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#skills p{
+    text-align: left;
+}
+
 footer{
     margin-top: 3rem;
     padding: 2rem 2rem 3rem;
     text-align: center;
 }
 
-footer
-{
+footer{
     position: relative;
 }
 
@@ -161,7 +171,7 @@ footer
 /* Media Queries */
 
 @media (min-width:768px) {
- 
+
     .main-nav{
         text-align: center;
         padding-left: 0;
@@ -189,7 +199,8 @@ footer
     .img-wrap4,
     .img-wrap5,
     .img-wrap6{
-        width:40%
+        width:40%;
+        /* height:auto; */
     }
 
     .footer-nav ul{
@@ -216,19 +227,29 @@ footer
         bottom: 0rem;
     }
 
-
-
-
-
 }
 
 @media (min-width: 1024px) {
+    
+    .name{
+        float:left;
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+    
+    .main-nav{
+        float: right;
+        margin-right: 1rem;
+        margin-top: 1rem;
+    }
+   
     .img-wrap1,
     .img-wrap2,
     .img-wrap3,
     .img-wrap4,
     .img-wrap5,
     .img-wrap6{
-        width:30%
+        width:29%;
+        height: auto;
     }
 }
