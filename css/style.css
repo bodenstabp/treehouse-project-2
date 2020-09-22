@@ -17,6 +17,12 @@ body{
     background-color: #ededed;
 }
 
+ul{
+    padding-left:0;
+}
+
+img{max-width: 100%;}
+
 a{
     text-decoration: none;
     color: cadetblue;
@@ -49,6 +55,9 @@ footer{
     background-color: #F0A8A8;
 }
 
+main{
+    margin: 0 1rem 0;
+}
 .name,
 .main-nav li,
 .footer-nav li{
@@ -92,7 +101,7 @@ main .container{
 
 .img-wrap{
     text-align: center;
-    margin: 0 1rem 2rem;
+    margin: 0 auto 2rem;
     border-bottom: 0.15rem solid #333;
     padding-bottom: 1rem;
     min-height: 425px;
@@ -118,7 +127,7 @@ main .container{
 }
 
 .img-info{
-    text-align: left;
+    text-align: center;
 }
 
 #skills{
@@ -144,6 +153,7 @@ footer{
 .footer-nav h3,
 .footer-nav ul{
     position: absolute;
+    font-size: 1rem;
 }
 
 .footer-nav h3{
@@ -203,7 +213,7 @@ footer{
     .img-wrap4,
     .img-wrap5,
     .img-wrap6{
-        width:45%;
+        width:50%;
         /* height:auto; */
     }
 
@@ -253,7 +263,7 @@ footer{
     .img-wrap4,
     .img-wrap5,
     .img-wrap6{
-        width:30%;
+        width:33.333%;
         height: auto;
     }
 }
