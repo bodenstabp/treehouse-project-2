@@ -81,6 +81,7 @@ main{
     margin-bottom: 1rem;
 }
 
+
 .bio{
     text-align: left;
 }
@@ -239,6 +240,7 @@ footer{
     }
     .footer-nav h3{
         bottom: 0rem;
+        font-size: 1.5rem;
     }
 
 }
